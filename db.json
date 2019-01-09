@@ -1,0 +1,32 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "name": "configure server",
+      "isComplete": true
+    },
+    {
+      "id": 2,
+      "name": "start server",
+      "isComplete": false,
+      "idComplete": true
+    },
+    {
+      "id": 3,
+      "name": "Load data into app",
+      "isComplete": true,
+      "idComplete": false
+    },
+    {
+      "name": "test new",
+      "isComplete": false,
+      "id": 4,
+      "idComplete": false
+    },
+    {
+      "name": "testeo",
+      "isComplete": false,
+      "id": 5
+    }
+  ]
+}
