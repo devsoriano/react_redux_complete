@@ -25,3 +25,7 @@ Ejecutar el comando de construcción de paquete productivo:
 Ejecutar la aplicación:
 
 ### `yarn start`
+
+## Documentación arquitectura
+
+https://drive.google.com/file/d/1Mif3JRPRvEuqcPHv3XvmFQtGNRWXLDCF/view?usp=sharing
