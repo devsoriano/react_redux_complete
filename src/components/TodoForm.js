@@ -2,9 +2,10 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {updateCurrent, saveTodo} from '../reducers/todo'
 
-class TodoForm extends Component{
+class TodoForm extends Component {
   handleInputChange = (evt) => {
-    this.props.updateCurrent(evt.target.value)
+    const val = evt.target.value
+    this.props.updateCurrent(val)
   }
 
   handleSubmit = (evt) => {
@@ -12,14 +13,13 @@ class TodoForm extends Component{
     this.props.saveTodo(this.props.currentTodo)
   }
 
-  render(){
+  render() {
     const {currentTodo} = this.props
     return (
       <form onSubmit={this.handleSubmit}>
-        <input type="text" 
+        <input type="text"
           onChange={this.handleInputChange}
-          value={currentTodo} 
-          />
+          value={currentTodo}/>
       </form>
     )
   }

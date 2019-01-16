@@ -14,4 +14,4 @@ export default createStore(
   composeWithDevTools(
     applyMiddleware(thunk)
   )
-) 
+)

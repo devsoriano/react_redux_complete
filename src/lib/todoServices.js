@@ -2,7 +2,7 @@ const baseUrl = process.env.REACT_APP_BASE_URL
 
 export const getTodos = () => {
   return fetch(baseUrl)
-    .then( res => res.json())
+    .then(res => res.json())
 }
 
 export const createTodo = (name) => {
@@ -14,7 +14,7 @@ export const createTodo = (name) => {
     },
     body: JSON.stringify({name: name, isComplete: false})
   })
-    .then( res => res.json())
+    .then(res => res.json())
 }
 
 export const updateTodo = (todo) => {
@@ -26,7 +26,7 @@ export const updateTodo = (todo) => {
     },
     body: JSON.stringify(todo)
   })
-    .then( res => res.json())
+    .then(res => res.json())
 }
 
 export const destroyTodo = (id) => {
