@@ -1,34 +1,29 @@
 {
   "todos": [
     {
-      "id": 1,
-      "name": "configure server",
-      "isComplete": false
+      "name": "Install redux-actions",
+      "isComplete": false,
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "start server",
-      "isComplete": false
+      "name": "simplify action creators",
+      "isComplete": false,
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "Load data into app",
-      "isComplete": false
+      "name": "Transform action payloads",
+      "isComplete": false,
+      "id": 3
     },
     {
-      "id": 4,
-      "name": "Add records",
-      "isComplete": false
-    },
-    {
-      "id": 5,
-      "name": "update records",
-      "isComplete": false
-    },
-    {
-      "name": "New Todo",
+      "name": "Handle actions",
       "isComplete": true,
-      "id": 6
+      "id": 4
+    },
+    {
+      "name": "Handle errors",
+      "isComplete": false,
+      "id": 5
     }
   ]
 }
