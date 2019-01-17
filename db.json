@@ -3,12 +3,12 @@
     {
       "id": 1,
       "name": "configure server",
-      "isComplete": true
+      "isComplete": false
     },
     {
       "id": 2,
       "name": "start server",
-      "isComplete": true
+      "isComplete": false
     },
     {
       "id": 3,

@@ -4,8 +4,7 @@ import {updateCurrent, saveTodo} from '../reducers/todo'
 
 class TodoForm extends Component {
   handleInputChange = (evt) => {
-    const val = evt.target.value
-    this.props.updateCurrent(val)
+    this.props.updateCurrent(evt.target.value)
   }
 
   handleSubmit = (evt) => {
